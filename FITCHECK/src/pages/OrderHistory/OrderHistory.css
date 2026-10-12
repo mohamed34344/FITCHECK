@@ -1,0 +1,8 @@
+.order-history-container {
+  max-width: 900px;
+}
+
+.table-responsive {
+  border-radius: 8px;
+  overflow: hidden;
+}

@@ -1,0 +1,54 @@
+:root {
+    --green: #064E3B;
+    --beige: #F8E7C9;
+}
+.bg-green{
+    background-color: var(--green) !important;
+}
+.bg-beige{
+    background-color: var(--beige) !important;
+}
+.text-green{
+    color: var(--green);
+}
+.text-beige{
+    color: var(--beige);
+}
+.btn-green{
+    background-color: var(--green);
+    color: var(--beige);
+    border: 2px solid var(--green);
+}
+.btn-green:hover{
+    background-color: var(--beige);
+    color: var(--green);
+    border: 2px solid var(--green);
+}
+.btn-beige{
+    background-color: var(--beige);
+    color: var(--beige);
+    border: 2px solid var(--beige);
+}
+.btn-beige:hover{
+    background-color: var(--green);
+    color: var(--beige);
+    border: 2px solid var(--beige);
+}
+.btn-outline-green{
+    background-color: transparent;
+    color: var(--green);
+    border: 2px solid var(--green);
+}
+.btn-outline-green:hover{
+    background-color: var(--green);
+    color: var(--beige);
+}
+.btn-outline-beige{
+    background-color: transparent;
+    color: var(--beige);
+    border: 2px solid var(--beige);
+}
+.btn-outline-beige:hover{
+    background-color: var(--beige);
+    color: var(--green);
+}

@@ -1,0 +1,60 @@
+.home-carousel-section {
+    margin-top: 0;
+}
+.carousel-content {
+    max-width: 900px;
+    margin: auto;
+}
+.carousel-image img {
+    height: 400px;
+    width: 100%;
+    object-fit: contain;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+.carousel-control-prev {
+    left: 1%;
+}
+.carousel-control-next {
+    right: 1%;
+}
+.carousel-indicators [data-bs-target] {
+    background-color: var(--bs-primary);
+}
+@media (max-width: 767.98px) {
+
+    .home-carousel-section {
+        padding: 20px;
+    }
+
+    .carousel-content {
+        max-width: 100%;
+    }
+
+    .carousel-text {
+        text-align: center !important;
+    }
+
+    .carousel-text h1 {
+        font-size: 2rem;
+    }
+
+    .carousel-image img {
+        height: 280px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 8%;
+    }
+
+    .carousel-control-prev {
+        left: 0;
+    }
+
+    .carousel-control-next {
+        right: 0;
+    }
+}
